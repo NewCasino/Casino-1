@@ -1,0 +1,14 @@
+#sidebar {
+width: 212px;
+float: right;
+text-align: center;
+margin-left: 700px;
+position: fixed;
+}
+#footer {
+	/*height: 225px;*/
+	background: url("../images/footer.jpg") left top no-repeat;
+	clear: both;
+	padding-top: 60px;
+	width:955px;
+}

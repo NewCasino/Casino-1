@@ -1,0 +1,2070 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin:         0;
+    padding:        0;
+    border:         0;
+    outline:        0;
+    font-weight:    inherit;
+    font-style:     inherit;
+    font-size:      100%;
+    font-family:    inherit;
+    vertical-align: baseline;
+    background:     transparent;
+}
+
+:focus {
+    outline: 0;
+}
+
+body {
+    line-height: 1;
+    color:       #5c5744;
+    font-family: Arial;
+    font-size:   12px;
+    font-weight: normal;
+    background:  #ffffff url("../images/bg3.jpg") no-repeat fixed center top;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing:  0;
+}
+
+caption, th, td {
+    text-align:  left;
+    font-weight: normal;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+
+blockquote, q {
+    quotes: "" "";
+}
+
+strong {
+    font-weight: bold;
+}
+
+/*========== Alertpop Styles ==========*/
+#alertpop {
+    padding:             0;
+    z-index:             999;
+    position:            absolute;
+    top:                 370px;
+    left:                -9000px;
+    height:              144px;
+    width:               448px;
+    background-image:    url("../images/downloadpopbg.gif");
+    background-position: left top;
+    background-repeat:   no-repeat;
+    text-align:          center;
+}
+
+#ap_dragbar {
+    width:      375px !important;
+    background: transparent !important;
+    height:     20px;
+}
+
+#ap_closebtt {
+    width:  26px;
+    height: 24px;
+    float:  right;
+    margin: 4px 5px 0 0;
+}
+
+#ap_dlok {
+    margin: 0 20px 0 0;
+}
+
+#alertpop h4 {
+    text-align:  left;
+    font:        bold 12px tahoma, verdana, san-serif;
+    color:       white;
+    cursor:      pointer;
+    overflow:    hidden;
+    width:       410px;
+    float:       left;
+    height:      28px;
+    margin:      0 0 0 0;
+    line-height: 28px;
+    text-indent: 40px;
+}
+
+#alertpop h5 {
+    text-align:     left;
+    clear:          both;
+    margin:         58px 0 15px 80px;
+    font:           11px tahoma, verdana, sans-serif;
+    z-index:        102;
+    text-transform: none !important;
+}
+
+/*========== Alertpop Styles - End ==========*/
+
+.alert {
+    display:    block;
+    background: transparent url("../images/alert.gif") 5px center no-repeat;
+    padding:    3px 0 3px 25px;
+    border:     1px dotted #cccccc;
+    color:      #ff0000;
+    width:      400px;
+}
+
+.disabled {
+    color: #cccccc !important;
+}
+
+.tooltip {
+    position:   absolute;
+    display:    none;
+    text-align: left;
+    padding:    0.5em;
+    color:      #000000;
+    background: #ffffff;
+    border:     2px solid #eae15f;
+}
+
+.red {
+    color: #ff0000 !important;
+}
+
+.green {
+    color: #4e6e20 !important;
+}
+
+#wrapper {
+    position: relative;
+    width:    958px;
+}
+
+.motto {
+    display:   block;
+    width:     300px;
+    height:    20px;
+    font-size: 11px !important;
+    color:     #5c5744;
+    position:  absolute;
+    top:       85px;
+    left:      60px;
+    z-index:   100;
+}
+
+#logo {
+    float:  left;
+    margin: 15px 0 -7px 15px;
+    width:  202px;
+    height: 84px;
+}
+
+#flags {
+    float:  right;
+    margin: 12px 16px 0 0;;
+}
+
+#flags li {
+    display:     inline;
+    margin-left: 7px;
+}
+
+#flags li a {
+    text-decoration: none;
+}
+
+#mainmenu {
+    clear:      both;
+    text-align: right;
+    margin:     0 0 15px 0;
+    position:   relative;
+    top:        -15px;
+}
+
+#mainmenu li {
+    display:      inline;
+    padding:      0 18px 0 18px;
+    border-right: 1px solid #5c5744;
+}
+
+#mainmenu li.last {
+    border-right: none;
+}
+
+#mainmenu li a {
+    color:           #5c5744;
+    font-weight:     bold;
+    text-decoration: none;
+}
+
+#mainmenu li a:hover {
+    color: #000000;
+}
+
+#mainmenu li.last a {
+    /*color: #47722a!important;*/
+}
+
+/* %%%% CONTENT %%%% */
+#left, #middle, #right {
+    height: 280px;
+    float:  left;
+}
+
+#middle {
+    width:      395px;
+    margin:     20px 0 0 -40px;
+    /*overflow: hidden;*/
+    position:   relative;
+    text-align: center;
+    height:     370px;
+}
+
+#d_button {
+    margin-top:    36px;
+    margin-bottom: 15px;
+}
+
+#ad_button {
+    position: absolute;
+    top:      225px;
+    left:     -255px;
+}
+
+#f_button {
+    width:  210px;
+    height: 71px;
+}
+
+#af_button {
+    position: absolute;
+    top:      261px;
+    left:     -12px;
+}
+
+#left {
+    margin:      20px 0 0 4px;
+    height:      245px;
+    padding-top: 35px;
+    position:    relative;
+}
+
+#text {
+    position:       absolute;
+    left:           0;
+    top:            250px;
+    margin:         0;
+    width:          300px;
+    height:         50px;
+    font-size:      15px;
+    font-weight:    bold;
+    letter-spacing: -1px;
+    font-family:    Arial;
+    line-height:    25px;
+    text-transform: uppercase;
+    text-align:     center;
+}
+
+#text a {
+    text-decoration: none;
+    color:           #516c29;
+}
+
+#text a:hover {
+    color: #79984a;
+}
+
+#right {
+    margin:     20px 0 0 0;
+    text-align: right;
+    width:      251px;
+}
+
+#jackpot {
+    background-repeat:   no-repeat;
+    background-position: left top;
+    width:               209px;
+    height:              53px;
+    position:            relative;
+    left:                25px;
+}
+
+.jackpot_obj {
+    position: absolute;
+    left:     22px;
+    top:      24px;
+}
+
+#jackpot_home {
+    background-repeat:   no-repeat;
+    background-position: left top;
+    width:               209px;
+    height:              53px;
+    position:            relative;
+}
+
+.jackpot_obj_home {
+    /*position: absolute;*/
+    margin-top: 22px;
+}
+
+#right div {
+    margin-top: 5px;
+}
+
+#right a {
+    margin-right: 10px;
+}
+
+#right p {
+    display:     inline;
+    position:    relative;
+    top:         -15px;
+    font-weight: bold;
+}
+
+#right ul {
+    clear:      both;
+    padding:    0px 0 0 25px;
+    height:     200px;
+    width:      146px;
+    background: url("../images/dice.jpg") left bottom no-repeat;
+}
+
+#right ul li {
+    color:         #4e6e20;
+    font-weight:   bold;
+    padding:       10px 0 10px 40px;
+    margin-bottom: 6px;
+    width:         180px;
+    text-align:    left;
+}
+
+.one {
+    background: url("../images/1.jpg") left center no-repeat;
+}
+
+.two {
+    background: url("../images/2.jpg") left center no-repeat;
+}
+
+.three {
+    background: url("../images/3.jpg") left center no-repeat;
+}
+
+#footer > p {
+    padding: 10px 7px 10px 0;
+    width:   930px;
+}
+
+#rights {
+    /*margin-left:140px;  */
+    margin-left: 550px;
+}
+
+#mainfoot {
+    clear:   both;
+    height:  80px;
+    padding: 0 23px 35px;
+    width:   920px;
+}
+
+#prog {
+    background: url("../images/prog.gif") left top no-repeat;
+    width:      188px;
+    height:     74px;;
+    margin:     0 0 0 0;
+    float:      left;
+    /*cursor: pointer;*/
+    overflow:   hidden;
+}
+
+#prog img {
+    /*margin: 3px 0 0 1px;*/
+    margin:    0;
+    padding:   0;
+    font-size: 0;
+}
+
+#prog a {
+    /*font-size: 11px;*/
+    /*color: #363636;*/
+    /*margin-left: 14px;*/
+    text-decoration: none;
+}
+
+#prog a:hover {
+    text-decoration: underline;
+}
+
+#mainfoot dl dt {
+    line-height:    12px;
+    font-weight:    bold;
+    text-transform: uppercase;
+    margin:         0 0 10px 30px;
+}
+
+#icons {
+    float:  left;
+    margin: 0 20px;
+}
+
+#mainfoot #support_box {
+    background:  url(../images/prog.gif) left top no-repeat;
+    float:       left;
+    padding-top: 10px;
+    width:       188px;
+    height:      64px;
+}
+
+#mainfoot dl {
+    width:    204px;
+    margin:   5px 0px 0px -28px;
+    cursor:   pointer;
+    overflow: hidden;
+}
+
+#mainfoot dl dt {
+    color: #4e6e20 !important;
+}
+
+#mainfoot dl dd {
+    color:         #555454;
+    font-weight:   bold;
+    margin-bottom: 4px;
+    margin-left:   40px;
+}
+
+#sidebar ul li dl {
+    background: url("../images/prog.gif") left top no-repeat;
+    width:      176px;
+    height:     62px;
+    padding:    12px 0 0 12px;
+    text-align: left;
+    cursor:     pointer;
+}
+
+#sidebar ul li dl dt {
+    line-height:    12px;
+    font-weight:    bold;
+    text-transform: uppercase;
+    margin:         0 0 10px 35px;
+    color:          #4e6e20 !important;
+}
+
+#sidebar ul li dl dd {
+    color:         #555454;
+    font-weight:   bold;
+    margin-bottom: 4px;
+}
+
+#bottommenu {
+    clear:  both;
+    margin: 0 120px;
+    width:  750px;
+}
+
+.inn {
+    margin-top: 120px;
+}
+
+#bottommenu li, #symbols li {
+    display: inline;
+}
+
+#bottommenu li {
+    border-right:  1px solid #4e6e20;
+    line-height:   12px;
+    margin-right:  15px;
+    padding-right: 15px;
+}
+
+#bottommenu li a {
+    color:           #4e6e20;
+    font-weight:     bold;
+    text-decoration: none;
+}
+
+#bottommenu li a:hover {
+    color: #b0e577;
+}
+
+#copy {
+    margin: 15px 0 0 210px;
+    color:  #c2c2c2;
+}
+
+#copy a {
+    color: #c2c2c2;
+}
+
+#copy a:hover {
+    color: #ababab;
+}
+
+.nobrd {
+    border-right: none !important;
+}
+
+#symbols {
+    margin: 15px 90px 0;
+    width:  800px;
+}
+
+#symbols li {
+    margin-right: 10px;
+    line-height:  30px;
+}
+
+#symbols li a {
+    opacity:         0.6;
+    text-decoration: none;
+}
+
+#symbols li a:hover {
+    opacity: 1;
+}
+
+#inner {
+    width:      630px;
+    float:      left;
+    margin:     0 0 0 15px;
+    min-height: 400px;
+}
+
+#inner h1 {
+    font-size:   20px;
+    color:       #4e6e20;
+    line-height: 28px;
+    background:  url("../images/bullet.gif") left center no-repeat;
+    padding:     0 0 0 30px;
+    margin:      0 0 20px 0;
+}
+
+#inner h2 {
+    font-size:   16px;
+    font-weight: bold;
+    line-height: 20px;
+    margin:      10px 0;
+    color:       #000000;
+    clear:       both;
+}
+
+#terms #inner h2 {
+    margin: 20px 0;
+}
+
+#inner h3 {
+    font-size:   14px;
+    font-weight: bold;
+    line-height: 18px;
+    margin:      10px 0;
+    color:       #000000;
+}
+
+#inner p {
+    line-height:   18px;
+    margin-bottom: 15px;
+}
+
+#inner em {
+    font-style: italic;
+}
+
+#acclaim #inner em {
+    font-weight:   bold;
+    display:       block;
+    margin-bottom: 45px;
+}
+
+#acclaim #inner p {
+}
+
+#inner a {
+    color:           #4e6e20;
+    font-weight:     bold;
+    text-decoration: none;
+}
+
+#inner a:hover {
+    text-decoration: none;
+    color:           #000000;
+    text-decoration: underline;
+}
+
+#inner ul {
+    margin:       10px 0;
+    padding-left: 10px;
+    clear:        both;
+}
+
+#inner ul li {
+    line-height:   16px;
+    background:    url("../images/small_bullet.gif") left top no-repeat;
+    padding-left:  0px;
+    margin-bottom: 0px;
+}
+
+#terms #inner ul {
+    margin: 20px 0;
+}
+
+#terms #inner ul li ul {
+    margin: 5px 0 !important;
+}
+
+#terms #inner ul li ul li, #terms #inner ul li {
+    background:    none !important;
+    margin-bottom: 5px;
+}
+
+#terms #inner ul li:first-letter {
+    font-weight: bold;
+}
+
+#sidebar ul li {
+    margin-bottom: 15px !important;
+}
+
+#sidebar ul li strong, #cashier #inner table strong {
+    font-weight:    bold;
+    text-transform: uppercase;
+}
+
+#bonus_inner {
+    margin-left: -45px;
+}
+
+#staf {
+    margin-left: -15px;
+}
+
+a.sidebar_preview {
+    color:           #936b5a;
+    font-weight:     bold;
+    text-transform:  uppercase;
+    text-decoration: none;
+}
+
+a.sidebar_preview:hover {
+    text-decoration: underline;
+}
+
+.narrow {
+    margin: 0 auto;
+}
+
+/*Tables*/
+.thead {
+    background:    url("../images/thead.gif") left top no-repeat;
+    padding-left:  18px;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 610px;
+}
+
+table tr td {
+    background:    transparent !important;
+    border-bottom: 1px solid #000000 !important;
+    padding:       2px 0;
+    height:        30px;
+}
+
+table tr td table tr td, #quest table tr td {
+    border-bottom: none !important;
+}
+
+#quest table tr td table {
+    width: auto !important;
+}
+
+#quest table tr td table tr td {
+    width:         100px;
+    text-align:    center;
+    font-weight:   bold;
+    border-bottom: 1px dotted #cccccc !important;
+}
+
+#cashier table tr td {
+    cursor: pointer;
+}
+
+#cashier table tr td.expl {
+    cursor: default;
+}
+
+table tr th {
+    height:      39px;
+    padding-top: 10px;
+    color:       #ffffff;
+    font-weight: bold;
+}
+
+table tr.cash_h_selected td, table tr.expl_h td {
+    background: #dce2b6 !important;
+}
+
+td.expl_off {
+    display: none;
+}
+
+#cashier #inner table p {
+    margin:      5px 0;
+    line-height: 14px;
+}
+
+/*Tables*/
+.certlogo {
+    float:  left;
+    margin: 0 15px 5px 0;
+}
+
+#feedback #inner form label, #feedback #inner form input, #ef_instructions #inner form label, #ef_instructions #inner form input {
+    display: block;
+    clear:   both;
+    margin:  5px 0;
+}
+
+#feedback #inner form input, #feedback #inner form select, #ef_instructions #inner form input, #ef_instructions #inner form select {
+    margin-bottom: 20px;
+    padding:       3px;
+    color:         #4e6e20;
+    font-weight:   bold;
+}
+
+#ef_instructions #inner h3 {
+    color: #4e6e20;
+}
+
+#ef_instructions form {
+    width:   500px;
+    padding: 10px;
+    margin:  15px 0;
+    border:  1px solid #4e6e20;
+}
+
+/*Faq*/
+.faq_togglegroup {
+    padding-left: 30px;
+}
+
+#faq_cont h4 {
+    font-weight:    bold;
+    margin-bottom:  15px;
+    text-transform: uppercase;
+    cursor:         pointer;
+}
+
+.question {
+    font-weight: bold;
+}
+
+/*Promotions*/
+.promo {
+    width: 450px;
+    clear: both;
+}
+
+.promo h2 {
+    background:     url("../images/promo_bg.jpg") left top no-repeat;
+    width:          440px;
+    height:         45px;
+    font-size:      14px;
+    text-transform: uppercase;
+    color:          #ffffff !important;
+    padding:        12px 0 0 25px;
+    float:          left;
+    margin-bottom:  0 !important;
+    clear:          both;
+    width:          550px;
+}
+
+.promo img {
+    float:       left;
+    margin-left: 15px;
+}
+
+.promo p {
+    margin-left: 15px;
+    float:       left;
+    width:       430px;
+}
+
+/*Download*/
+#download #inner img {
+    margin: 0 0 25px 0;
+}
+
+/*Sendtoafriend*/
+#sendtoafriend #inner input, #sendtoafriend #inner label {
+    line-height: 20px;
+}
+
+#sendtoafriend #inner label {
+    margin: 10px;
+}
+
+#sendtoafriend #inner input {
+    margin-top: 7px;
+}
+
+#formstaf span label b {
+    color: #4e6e20;
+}
+
+#formstaf textarea {
+    width: 600px;
+}
+
+#formstaf #sbm {
+    clear:  both;
+    width:  90px;
+    margin: 50px 0 0 250px;
+}
+
+/*Congratulation*/
+#congratulation #inner {
+    width:         500px;
+    background:    url("../images/congratulation/inner_bg.jpg") right 140px no-repeat;
+    padding-right: 130px;
+}
+
+/*EF*/
+#ef_instructions .promo h2 {
+    background: none;
+    color:      #555454;
+    padding:    0;
+    height:     auto;
+}
+
+#ef_instructions .promo h3 {
+    clear: both;
+}
+
+#ef_instructions .promo ul#clients li {
+    display:      inline;
+    margin-right: 10px;
+}
+
+#stepper li {
+    background: none !important;
+    display:    inline;
+    cursor:     pointer;
+}
+
+/*Preview*/
+.preview_block {
+    float:  left;
+    width:  200px;
+    margin: 20px 0 0 0;
+}
+
+/*Terms*/
+table tr td.term {
+    color:       #000000;
+    font-weight: bold;
+    width:       150px;
+}
+
+/*Progressive*/
+#progressive .thead {
+    background: none;
+}
+
+#progressive table tr td {
+    text-align: center;
+}
+
+/*Sitemap*/
+#sitemap #inner dl {
+    width:      30%;
+    float:      left;
+    margin:     0 10px 10px 0;
+    min-height: 125px;
+}
+
+#sitemap #inner dl dt {
+    height:      26px;
+    line-height: 24px;
+}
+
+#sitemap #inner dl dt a {
+    font-size:   14px;
+    font-weight: bold;
+}
+
+#sitemap #inner dl dd {
+    margin:      0 0 4px 0;
+    padding:     0 0 0 21px;
+    line-height: 18px;
+}
+
+#sitemap #inner dl dd a {
+    font-size:   12px;
+    font-weight: normal;
+}
+
+#sitemap #inner dl dd ul {
+}
+
+#sitemap #inner ul li {
+    margin:     0 !important;
+    padding:    0 0 0 21px !important;
+    background: url(../images/small_bullet.gif) left top no-repeat;
+}
+
+#sitemap #inner dl dd ul li a {
+    font-weight: normal;
+    color:       #936b5a;
+}
+
+/* Earth Day Page Styles */
+#earthday .promo {
+    width:      566px;
+    margin:     38px 0 0 0;
+    background: url("../images/earthday.jpg") right top no-repeat;
+}
+
+#earthday h1 {
+    background: url("../images/promo_bg.jpg") left top no-repeat;
+    padding:    10px 0 10px 32px;
+    color:      #ffffff;
+    font:       bold 19px Arial;
+}
+
+#earthday .promo p {
+    color: #5c5744;
+    font:  normal 18px Arial;
+}
+
+#earthday .promo p.bonus {
+    font-size: 20px;
+}
+
+/* Environment Day Page Styles */
+#environmentday #inner {
+    background: url("../images/environmentday.jpg") 480px 50px no-repeat;
+}
+
+#environmentday #inner h2 {
+    background:     url("../images/promo_bg.jpg") left top no-repeat;
+    width:          440px;
+    height:         45px;
+    font-size:      14px;
+    text-transform: uppercase;
+    color:          #ffffff !important;
+    padding:        12px 0 0 25px;
+    float:          left;
+    margin-bottom:  0 !important;
+    margin-top:     40px;
+}
+
+#environmentday #inner .enlarged {
+    display: block;
+    font:    bold 18px Arial;
+}
+
+#environmentday #inner p {
+    clear:   both;
+    padding: 0 18px;
+}
+
+#environmentday #inner ul {
+    clear:  both;
+    margin: 0 0 0 8px;
+}
+
+#environmentday #inner li {
+    background: url("../images/bulletGreen.gif") left center no-repeat !important;
+}
+
+.spaced {
+    margin: 15px 0;
+}
+
+#inner hr {
+    height:      1px;
+    clear:       both;
+    border:      none !important;
+    background:  none;
+    line-height: 0;
+    visibility:  hidden;
+}
+
+img.secure {
+    float:  right;
+    margin: -45px 30px 0 0;
+}
+
+.disabled {
+    color:  white;
+    border: gray;
+}
+
+.moreinfo {
+    position:        absolute;
+    top:             100px;
+    left:            190px;
+    color:           #5c5744;
+    font-weight:     bold;
+    text-decoration: none;
+}
+
+.moreinfo:hover {
+    color: #000000;
+}
+
+/*========== Slider Styles ==========*/
+#slider {
+    position: absolute;
+    top:      -390px;
+    right:    10px;
+    z-index:  100;
+    width:    315px;
+}
+
+#slider .inr {
+    background:    #d4d0c8;
+    padding:       0 5px 5px 5px;
+    border-bottom: 1px solid #a09d98;
+    width:         305px;
+}
+
+#slider .inr img {
+    float:  left;
+    margin: 0;
+}
+
+#slider .sliderClose {
+    cursor: pointer;
+}
+
+#flash_link {
+    background: url(../index.html);
+    height:     225px;
+    width:      306px;
+    display:    block;
+    position:   absolute;
+    left:       0;
+    top:        19px;
+}
+
+#play_btn {
+    display:         block;
+    background:      url(../images/play_btn.jpg) no-repeat center top #ffbc03;
+    border:          0px solid red;
+    height:          55px;
+    color:           #ffffff;
+    text-align:      center;
+    line-height:     43px;
+    font-size:       22px;
+    text-decoration: underline;
+}
+
+.slider_ticker, .slider_txt {
+    background:  #ffbc03;
+    text-align:  center;
+    color:       #3b5002;
+    font-weight: bold;
+    padding-top: 6px;
+}
+
+.slider_ticker {
+    padding-bottom: 6px;
+}
+
+.h2 {
+    font-size: 17px;
+}
+
+.h1 {
+    font-size: 21px;
+}
+
+/*========== Slider Styles - End ==========*/
+.clearfix:after {
+    content:    ".";
+    display:    block;
+    height:     0;
+    clear:      both;
+    visibility: hidden;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {
+    height: 1%;
+}
+
+/* End hide from IE-mac */
+
+.marquee_wrapper {
+    margin-left: 10px;
+}
+
+.marquee_wrapper {
+    margin-left:   20px;
+    margin-bottom: 20px;
+}
+
+#news {
+    font-family: "verdana", "helvetica", "arial", sans-serif;
+    font-size:   14px;
+    font-weight: bold;
+    padding:     5px 10px;
+    height:      10px;
+    overflow:    hidden;
+}
+
+#adictel_container {
+    width:    200px;
+    height:   52px;
+    position: relative;
+    float:    left;
+    margin:   0 10px 0 0;
+}
+
+#adictel_container #flash_link {
+    display: block;
+    width:   200px;
+    height:  52px;
+    top:     0;
+    left:    0;
+}
+
+/*New  Live Dealers */
+#inner h3.subtitle {
+    background:     url('../images/thead.gif') left top no-repeat;
+    height:         39px;
+    color:          #ffffff;
+    font-weight:    bold;
+    font-family:    Arial;
+    font-size:      16px;
+    text-transform: uppercase;
+    padding:        10px 0 0 30px;
+}
+
+#liveVideo {
+    position:      relative;
+    min-height:    305px;
+    width:         605px;
+    padding:       0 0 0 29px;
+    margin-bottom: 50px;
+    background:    url('../images/dealers/background_tour.jpg') bottom right no-repeat !important;
+}
+
+#liveVideo p {
+    width: 571px;
+}
+
+#videoDescr {
+    width:  610px;
+    margin: 20px 0;
+}
+
+#stream {
+    width:    345px;
+    height:   245px;
+    display:  block;
+    float:    left;
+    margin:   0;
+    padding:  0;
+    overflow: hidden;
+}
+
+#videoTour {
+    display: block;
+    float:   left;
+    width:   255px;
+    padding: 0 0 0 10px;
+}
+
+#videoTour h3 {
+    color:       #4e6e20;
+    font-size:   32px;
+    font-family: Ariel, Helvetica, sans-serif;
+}
+
+#live_casino_games #inner ul li {
+    list-style: none;
+    background: none;
+}
+
+#inner ul.pagging li {
+    padding: 10px 0 0 40px;
+    height:  23px;
+}
+
+.activePage, #galleryList .activeTab {
+    font-weight: bold;
+    color:       #000000;
+}
+
+#vijaLI {
+    background: url('../images/1.jpg') left top no-repeat !important;
+}
+
+#annaLI {
+    background: url('../images/2.jpg') left top no-repeat !important;
+}
+
+#anna {
+    display: none;
+}
+
+#live_casino_games #liveGamesDownload {
+    display: block;
+    width:   174px;
+    height:  35px;
+    float:   right;
+    margin:  130px 33px 0 0;
+}
+
+#live_casino_games.en #liveGamesDownload {
+    background: url('../tpl/green/en/images/dealers/download.html') no-repeat;
+}
+
+#live_casino_games.cz #liveGamesDownload {
+    background: url('../tpl/green/cz/images/dealers/download.html') no-repeat;
+}
+
+#live_casino_games.da #liveGamesDownload {
+    background: url('../tpl/green/da/images/dealers/download.html') no-repeat;
+}
+
+#live_casino_games.es #liveGamesDownload {
+    background: url('../tpl/green/es/images/dealers/download.html') no-repeat;
+}
+
+#live_casino_games.fr #liveGamesDownload {
+    background: url('../tpl/green/fr/images/dealers/download.html') no-repeat;
+}
+
+#live_casino_games.it #liveGamesDownload {
+    background: url('../tpl/green/it/images/dealers/download.html') no-repeat;
+}
+
+#live_casino_games.nl #liveGamesDownload {
+    background: url('../tpl/green/pt/images/dealers/download.html') no-repeat;
+}
+
+#live_casino_games.uk #liveGamesDownload {
+    background: url('../tpl/green/uk/images/dealers/download.html') no-repeat;
+}
+
+.dealer {
+    position:      relative;
+    padding:       0 0 40px 50px;
+    margin:        0 0 40px 0;
+    border-bottom: 1px solid #959595;
+    width:         596px;
+    min-height:    144px;
+    z-index:       -1;
+}
+
+.dealerPic {
+    position:  absolute;
+    right:     0;
+    bottom:    0;
+    padding:   0;
+    margin:    0;
+    font-size: 0;
+}
+
+.dealer dd {
+    width: 390px;
+}
+
+#facilities {
+    float: left;
+    width: 650px;
+}
+
+#dealersGallery {
+    float: left;
+    width: 434px;
+}
+
+#galleryList {
+    float: left;
+    width: 215px;
+    color: #73a045;
+}
+
+#dealersGallery li {
+    position: relative;
+    margin:   0;
+    padding:  0;
+    display:  none;
+}
+
+#dealersGallery li img {
+    margin:    0;
+    padding:   0;
+    font-size: 0;
+}
+
+#dealersGallery ul li.activeTab {
+    display: block;
+}
+
+.descr {
+    background: url("../images/dealers/transparent.png") repeat left top transparent;
+    color:      #ffffff;
+    position:   absolute;
+    left:       0;
+    bottom:     0;
+    padding:    5px 15px;
+    margin:     0 0 0 17px !important;
+    width:      377px;
+    min-height: 75px;
+}
+
+#galleryList li {
+    cursor: pointer;
+}
+
+#galleryList li.activeTab {
+    display: block;
+}
+
+/*end New  Live Dealers */
+
+/* Payment Options */
+#makeMeScrollable {
+    height:   32px;
+    margin:   42px 40px 0;
+    position: relative;
+    width:    900px;
+}
+
+#p_o_container {
+    overflow: hidden;
+    position: relative;
+    margin:   0 auto;
+    height:   30px;
+    width:    900px;
+}
+
+#p_o {
+    margin:      5px 0 0 0;
+    white-space: nowrap;
+}
+
+.p_o_arrows {
+    width:        0;
+    height:       2px;
+    overflow:     hidden;
+    border-width: 10px 15px;
+    border-color: #739e45;
+    border-style: solid;
+    opacity:      0.4;
+    filter:       alpha(opacity=40);
+    position:     absolute;
+    top:          2px;
+}
+
+#p_o_next {
+    right:        -20px;
+    _display:     20px 20px 20px;
+    border-color: transparent transparent transparent #739e45;
+}
+
+#p_o_prev {
+    left:         -20px;
+    _display:     inline;
+    border-color: transparent #739e45 transparent transparent;
+}
+
+#p_o li {
+    float:       left;
+    height:      20px;
+    padding:     0 5px 7px;
+    white-space: nowrap;
+}
+
+#p_o li#payment_title {
+    border-left: 1px solid #666666;
+    padding:     2px 10px;
+    width:       51px;
+}
+
+#p_o_carousel {
+    margin: 0 7px;
+}
+
+#p_o a {
+    background:  url(../images/payment_options_sprite.png) left top no-repeat;
+    display:     block;
+    text-indent: -9999px;
+    height:      20px;
+    width:       51px;
+}
+
+#p_o a.my_citadel {
+    width:               44px;
+    background-position: -62px bottom;
+}
+
+#p_o a.use_my_bank {
+    width:               72px;
+    background-position: -119px bottom;
+}
+
+#p_o a.ideal {
+    width:               21px;
+    background-position: -193px bottom;
+}
+
+#p_o a.ticket_surf {
+    width:               73px;
+    background-position: -227px bottom;
+}
+
+#p_o a.ids {
+    width:               69px;
+    background-position: -314px bottom;
+}
+
+#p_o a.moneta {
+    width:               40px;
+    background-position: -395px bottom;
+}
+
+#p_o a.click_pay {
+    width:               66px;
+    background-position: -440px bottom;
+}
+
+#p_o a.web_money {
+    width:               60px;
+    background-position: -508px bottom;
+}
+
+#p_o a.bank_transfer {
+    width:               69px;
+    background-position: -569px bottom;
+}
+
+#p_o a.ukash {
+    width:               36px;
+    background-position: -652px bottom;
+}
+
+#p_o a.gluepay {
+    width:               25px;
+    background-position: -698px bottom;
+}
+
+#p_o a.pay_safe_card {
+    width:               66px;
+    background-position: -730px bottom;
+}
+
+#p_o a.giropay {
+    width:               32px;
+    background-position: -805px bottom;
+}
+
+#p_o a.neteller {
+    width:               66px;
+    background-position: -843px bottom;
+}
+
+#p_o a.entropay {
+    width:               51px;
+    background-position: -913px bottom;
+}
+
+#p_o a.ecocard {
+    width:               31px;
+    background-position: -966px bottom;
+}
+
+#p_o a.money_bookers {
+    width:               63px;
+    background-position: -2421px bottom;
+}
+
+#p_o a.instant_wire_transfer {
+    width:               71px;
+    background-position: -1073px bottom;
+}
+
+#p_o a.poli {
+    width:               35px;
+    background-position: -1145px bottom;
+}
+
+#p_o a.mistercash {
+    width:               77px;
+    background-position: -1183px bottom;
+}
+
+#p_o a.euteller {
+    width:               54px;
+    background-position: -1266px bottom;
+}
+
+#p_o a.multibanco {
+    width:               70px;
+    background-position: -1329px bottom;
+}
+
+#p_o a.click_and_buy {
+    width:               75px;
+    background-position: -1406px bottom;
+}
+
+#p_o a.postepay {
+    width:               48px;
+    background-position: -1487px bottom;
+}
+
+#p_o a.neosurf {
+    width:               33px;
+    background-position: -1541px bottom;
+}
+
+#p_o a.santander {
+    width:               75px;
+    background-position: -1576px bottom;
+}
+
+#p_o a.dineromail {
+    width:               57px;
+    background-position: -1658px bottom;
+}
+
+#p_o a.nordea {
+    width:               64px;
+    background-position: -1720px bottom;
+}
+
+#p_o a.abaqoos {
+    width:               54px;
+    background-position: -1790px bottom;
+}
+
+#p_o a.online_bank_transfer {
+    width:               66px;
+    background-position: -1851px bottom;
+}
+
+#p_o a.e_wire {
+    width:               61px;
+    background-position: -1922px bottom;
+}
+
+#p_o a.sofort {
+    width:               67px;
+    background-position: -1991px bottom;
+}
+
+#p_o a.eps {
+    width:               29px;
+    background-position: -2072px bottom;
+}
+
+#p_o a.prezelwy {
+    width:               54px;
+    background-position: -2113px bottom;
+}
+
+#p_o a.teleingreso {
+    width:               30px;
+    background-position: -2172px bottom;
+}
+
+#p_o a.enets {
+    width:               43px;
+    background-position: -2251px bottom;
+}
+
+#p_o a.elv {
+    width:               27px;
+    background-position: -2303px bottom;
+}
+
+#p_o a.internet_banking {
+    width:               39px;
+    background-position: -2374px bottom;
+}
+
+#p_o a.boleto {
+    width:               62px;
+    background-position: -2490px bottom;
+}
+
+#p_o a.ekonto {
+    width:               88px;
+    background-position: -2553px bottom;
+}
+
+div.scrollingHotSpotRight, div.scrollingHotSpotLeft {
+    border-width: 10px 15px;
+    border-color: #ffffff;
+    border-style: solid;
+    opacity:      0.2;
+    filter:       alpha(opacity=20);
+    position:     absolute;
+    top:          2px;
+}
+
+div.scrollingHotSpotLeft {
+    left:         -20px;
+    _display:     inline;
+    border-color: transparent #ffffff transparent transparent;
+    min-width:    20px;
+    z-index:      200;
+}
+
+div.scrollingHotSpotRight {
+    right:        -20px;
+    _display:     20px 20px 20px;
+    border-color: transparent transparent transparent #ffffff;
+    min-width:    20px;
+    z-index:      200;
+}
+
+.container {
+    margin:     0 auto;
+    position:   relative;
+    width:      955px;
+    background: #ffffff url("../images/bg.jpg") left top no-repeat;
+}
+
+.gamebox {
+    float:        left;
+    width:        292px;
+    margin-right: 10px;
+}
+
+.gameinfo {
+    background-image:  url("../images/smbgGames.png");
+    background-repeat: no-repeat;
+    height:            121px;
+    padding-top:       9px;
+    width:             292px;
+    color:             white;
+}
+
+.Banner_RT {
+    margin-left: 1px;
+    margin-top:  8px;
+    width:       274px;
+}
+
+#fixedNetwork {
+    left: 5px;
+
+}
+
+div#BonusBox {
+    position:              relative;
+    top:                   20px;
+    height:                210px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius:    15px;
+    border-radius:         15px;
+}
+
+div#bonus-terms-list ul li {
+    padding-left: 25px;
+}
+
+div.BonusAmount {
+    position:   absolute;
+    height:     158px;
+    text-align: center;
+}
+
+.bonus-text {
+    font-family:    Arial, Helvetica, sans-serif;
+    font-weight:    bold;
+    font-size:      80px;
+    margin-top:     -11px;
+    color:          #669933;
+    letter-spacing: -6px;
+    text-shadow:    2px 2px 1px rgb(22, 22, 22);
+    margin-left:    10px;
+}
+
+.bonus-text-desc {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:   30px;
+    color:       #666666;
+    margin-left: 16px;
+}
+
+div.DownloadButton a {
+    position:   absolute;
+    top:        110px;
+    left:       45px;
+    width:      308px;
+    height:     61px;
+    background: url('../images/downloadbutton_en.png') no-repeat top center;
+}
+
+div.DownloadButton a:hover {
+    background: url('../images/downloadbutton_en.png') no-repeat bottom center;
+}
+
+/* FLAGS LANGUAGE BAR */
+
+#langs {
+    top: 47px;
+}
+
+#langs {
+    z-index: 300;
+}
+
+#langs, #clock, #fav, .flags-dd div, .flags-dd .bg, dl.flags-dd dd {
+    position: absolute;
+    right:    0;
+    font:     normal 11px arial;
+    color:    #7d7d7d;
+}
+
+.flags-dd {
+    font:          11px tahoma;
+    padding-right: 5px;
+    position:      absolute;
+    right:         10px;
+    text-align:    left;
+    top:           -35px;
+}
+
+dl {
+    display:               block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after:  1em;
+    -webkit-margin-start:  0px;
+    -webkit-margin-end:    0px;
+}
+
+#langs, #clock, #fav, .flags-dd div, .flags-dd .bg, dl.flags-dd dd {
+    font:  normal 11px arial;
+    color: #ffffff;
+}
+
+.flags-dd dt {
+    background:            none repeat scroll 0 0 #666666;
+    width:                 132px;
+    height:                19px;
+    cursor:                pointer;
+    padding:               3px 0px 0px 5px;
+    margin:                0;
+    position:              relative;
+    z-index:               202;
+    float:                 right;
+    /*border: 1px solid #555555;
+    border-top-color: #000000;
+    border-left-color: #000000;*/
+    -webkit-border-radius: 3px;
+    -moz-border-radius:    3px;
+    border-radius:         3px;
+}
+
+dt {
+    display: block;
+}
+
+.flags-dd {
+    font:       11px tahoma;
+    text-align: left;
+}
+
+.flags-dd div.sel {
+    float:    left;
+    height:   11px;
+    margin:   2px 4px 0 0;
+    opacity:  1;
+    position: static;
+    width:    16px;
+}
+
+.flags-dd dt {
+    cursor: pointer;
+}
+
+.flags-dd-btn {
+    background-image:    url('../images/flags/flagsad05.png?v=001');
+    background-position: -700px -32px;
+    background-repeat:   no-repeat;
+    float:               right;
+    height:              14px;
+    margin:              5px;
+    width:               14px;
+}
+
+.flags-dd dd {
+    background:    none repeat scroll 0 0 #000000;
+    border:        1px solid #858585;
+    border-radius: 5px 5px 5px 5px;
+    display:       none;
+    margin:        20px 0;
+    padding:       0 0 9px;
+    position:      absolute;
+    right:         3px;
+    top:           10px;
+    width:         525px;
+    z-index:       200;
+}
+
+.bonus-wrapper .bg, .top-info .bg, .flags-dd .bg {
+    filter:         alpha(opacity=70);
+    -moz-opacity:   0.7;
+    -khtml-opacity: 0.7;
+    opacity:        0.7;
+    z-index:        5;
+    position:       absolute;
+}
+
+.flags-dd .bg {
+    background: url('../images/flags/lang-arrow-top.png') no-repeat scroll 90px 0 transparent;
+    height:     11px !important;
+    opacity:    1;
+    position:   absolute;
+    right:      -3px;
+    top:        -9px;
+    width:      130px !important;
+}
+
+.flags-dd dd div.title {
+    display: none;
+}
+
+.flags-dd .title {
+    float:       left;
+    position:    relative;
+    z-index:     7;
+    width:       100%;
+    clear:       both;
+    font:        bold 16px arial;
+    margin:      17px;
+    background:  none;
+    color:       #ffffff;
+    text-indent: 0;
+    height:      20px;
+}
+
+.flags-dd a {
+    border-bottom:   1px dashed #ffffff;
+    color:           #ffffff;
+    display:         inline-block;
+    float:           left;
+    font-size:       11px;
+    margin:          9px 0 0 13px;
+    padding:         0 5px 3px 24px;
+    position:        relative;
+    text-decoration: none;
+    width:           86px;
+    z-index:         7;
+}
+
+.centred a, #channels {
+    text-align: left;
+}
+
+.flags-dd a div {
+    border:             10px solid #000000;
+    border-right-width: 6px;
+    height:             11px;
+    left:               -8px;
+    margin:             0;
+    overflow:           hidden;
+    position:           absolute;
+    text-indent:        -1000px;
+    top:                -6px;
+    width:              16px;
+}
+
+.flags-dd div {
+    background-image: url('../images/flags/flagsad05.png?v=001');
+}
+
+#langs {
+    z-index: 300;
+}
+
+.flags-holder {
+    width:    125px;
+    height:   18px;
+    position: absolute;
+    top:      10px;
+    right:    2px;
+}
+
+.flags-dd:hover dt {
+    border-bottom: none;
+    background:    #000000;
+    height:        19px;
+}
+
+.flags-dd a:hover {
+    color:               #89d43e;
+    border-bottom-color: #89d43e;
+}
+
+.flags-dd div.au {
+    background-position: -734px 0;
+}
+
+.flags-dd div.ca {
+    background-position: -734px -11px;
+}
+
+.flags-dd div.zh {
+    background-position: -734px -22px;
+}
+
+.flags-dd div.de {
+    background-position: -734px -44px;
+}
+
+.flags-dd div.es {
+    background-position: -734px -66px;
+}
+
+.flags-dd div.fr {
+    background-position: -734px -88px;
+}
+
+.flags-dd div.eu {
+    background-position: -734px 308px;
+}
+
+.flags-dd div.uk {
+    background-position: -734px -220px;
+}
+
+.flags-dd div.at {
+    background-position: -734px 319px;
+}
+
+.flags-dd div.it {
+    background-position: -734px -110px;
+}
+
+.flags-dd div.el {
+    background-position: -734px -264px;
+}
+
+.flags-dd div.tr {
+    background-position: -734px 352px;
+}
+
+.flags-dd div.da {
+    background-position: -734px -56px;
+}
+
+.flags-dd div.ru {
+    background-position: -734px -198px;
+}
+
+.flags-dd div.nl {
+    background-position: -734px -143px;
+}
+
+.flags-dd div.sv {
+    background-position: -734px -209px;
+}
+
+.flags-dd div.za {
+    background-position: -734px -242px;
+}
+
+.flags-dd div.no {
+    background-position: -734px -154px;
+}
+
+.flags-dd div.fi {
+    background-position: -734px -77px;
+}
+
+.flags-dd div.ro {
+    background-position: -734px -418px;
+}
+
+.flags-dd div.hu {
+    background-position: -734px -99px;
+}
+
+.flags-dd div.cz {
+    background-position: -734px -33px;
+}
+
+.flags-dd div.jp {
+    background-position: -734px -121px;
+}
+
+.flags-dd div.pl {
+    background-position: -734px -165px;
+}
+
+.flags-dd div.pt {
+    background-position: -734px -176px;
+}
+
+.flags-dd div.ar {
+    background-position: -734px -319px;
+}
+
+.flags-dd div.at {
+    background-position: -734px -330px;
+}
+
+.flags-dd div.be {
+    background-position: -734px -341px;
+}
+
+.flags-dd div.br {
+    background-position: -734px -352px;
+}
+
+.flags-dd div.cl {
+    background-position: -734px -363px;
+}
+
+.flags-dd div.ie {
+    background-position: -734px -308px;
+}
+
+.flags-dd div.qc {
+    background-position: -734px -275px;
+}
+
+.flags-dd div.mx {
+    background-position: -734px -374px;
+}
+
+.flags-dd div.nz {
+    background-position: -734px -385px;
+}
+
+.flags-dd div.ua {
+    background-position: -734px -396px;
+}
+
+.flags-dd div.rs {
+    background-position: -734px -407px;
+}
+
+.flags-dd div.id {
+    background-position: -734px -429px;
+}
