@@ -1,2 +1,0 @@
-<?php
-    define('YANDEX_API', 'trnsl.1.1.20150210T074624Z.cc5af36b1063c5af.6c8e7d930190ea9151078325d8507acaa8be3dd6');
